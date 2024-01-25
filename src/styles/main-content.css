@@ -13,6 +13,7 @@
     margin: 10px;
     border-radius: 8px;
     background-color: rgb(73, 72, 72);
+    padding: 12px;
 }
 
 .header_navigation .navigation {
@@ -33,6 +34,7 @@
     height: 32px;
     background: var(--bg-icon);
     background-color: var(--bg-arrow-color);
+    border-radius: 50%;
     border: none;
     cursor: pointer;
 }
