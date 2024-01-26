@@ -65,7 +65,7 @@
     background: transparent;
     border: none;
     padding: 0px 100px 0 12px;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
@@ -117,22 +117,22 @@
   }
   
   /* SCROLL */
-  .offer__scroll-container {
+  .offer_scroll-container {
     max-height: 43vh;
     margin: 24px;
     overflow-y: auto;
   }
   
-  .offer__scroll-container::-webkit-scrollbar {
+  .offer_scroll-container::-webkit-scrollbar {
     width: 1px;
   }
   
-  .offer__scroll-container::-webkit-scrollbar-thumb {
+  .offer_scroll-container::-webkit-scrollbar-thumb {
     background-color: transparent;
   }
   /* FIM SCROLL */
   
-  .offer__list-item {
+  .offer_list-item {
     display: grid;
     justify-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -211,7 +211,7 @@
   }
   /* FIM COLOR CARDS */
   
-  .offer__list-item img {
+  .offer_list-item img {
     position: absolute;
     right: 0;
     bottom: 0;
