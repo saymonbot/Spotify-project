@@ -130,7 +130,7 @@
   .offer_scroll-container::-webkit-scrollbar-thumb {
     background-color: transparent;
   }
-  /* FIM SCROLL */
+  /* END SCROLL */
   
   .offer_list-item {
     display: grid;
@@ -140,7 +140,7 @@
     gap: 16px;
     margin-bottom: 16px;
   
-    /* CODIGO COM JS CALCULANDO OS CARDS POR COLUNA */
+    /* JS CODE CALC CARDS BY COLUMN */
     display: grid;
     gap: 16px;
     grid-gap: 32px;
@@ -209,7 +209,7 @@
   .card15 {
     background: rgb(60, 30, 80);
   }
-  /* FIM COLOR CARDS */
+  /* END COLOR CARDS */
   
   .offer_list-item img {
     position: absolute;
@@ -220,7 +220,7 @@
     transform: rotate(25deg) translate(18%, -2%);
   }
   
-  /* CARD ARTISTA */
+  /* ARTIST CARD */
   
   .artist {
     --column-count: 5;
@@ -330,4 +330,4 @@
   #result-artist {
     padding: 20px 40px;
   }
-  /* FIM CARD ARTISTA */
+  /* END ARTIST CARD */
